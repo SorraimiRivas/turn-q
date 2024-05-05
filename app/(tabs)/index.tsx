@@ -40,8 +40,7 @@ export default function Queue() {
   const headerHeight = useHeaderHeight();
   const [shuffledData, setShuffledData] = useState<User[]>([]);
 
-  // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-  const renderItem = ({ item, index }: { item: any; index: number }) => (
+  const renderItem = ({ item, index }: { item: User; index: number }) => (
     <Pressable className="w-full h-28 px-4">
       <Card className="h-full">
         <CardHeader className="items-center flex-row gap-4">
