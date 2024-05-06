@@ -6,6 +6,7 @@ import {
   ListStart,
   type LucideIcon,
   MoonStar,
+  Scroll,
   Settings,
   Sun,
   User2,
@@ -33,6 +34,7 @@ interopIcon(Settings);
 interopIcon(ListStart);
 interopIcon(Activity);
 interopIcon(CheckCircle);
+interopIcon(Scroll);
 
 export {
   Info,
@@ -44,4 +46,5 @@ export {
   ListStart,
   Activity,
   CheckCircle,
+  Scroll,
 };
