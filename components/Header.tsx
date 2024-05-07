@@ -24,7 +24,7 @@ export default function Header() {
           <AvatarImage source={{ uri: "https://github.com/shadcn.png" }} />
           <AvatarFallback>SR</AvatarFallback>
         </Avatar>
-        <Text className="text-xl font-bold">Turn Q</Text>
+        <Text className="text-3xl font-p700">Turn Q</Text>
         <ThemeToggle />
       </View>
     </View>

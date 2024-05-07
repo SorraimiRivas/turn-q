@@ -21,7 +21,7 @@ export default function UserCard({
     <Pressable className="w-full h-28 px-4">
       <Card className="h-full">
         <CardHeader className="items-center flex-row gap-4">
-          <Text className="font-semibold text-base">{name}</Text>
+          <Text className="font-p600 text-md">{name}</Text>
           <View
             className={cn(
               "h-[10px] w-[10px] rounded-full ",
@@ -31,7 +31,7 @@ export default function UserCard({
         </CardHeader>
         <CardFooter className="w-full justify-end p-0">
           <Button variant={"ghost"} size={"icon"} onPress={onPress}>
-            <CheckCircle className="text-muted-foreground" size={20} />
+            <CheckCircle className="text-foreground" size={20} />
           </Button>
         </CardFooter>
       </Card>
