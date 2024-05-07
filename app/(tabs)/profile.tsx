@@ -14,10 +14,10 @@ export default function profile() {
         }}
         contentFit="contain"
       />
-      <Text className="text-2xl font-serif font-bold text-center">
+      <Text className="text-2xl font-p700 text-center">
         Profile page under construction!
       </Text>
-      <Text className="text-center text-xl text-muted-foreground">
+      <Text className="text-center text-xl font-p400 text-muted-foreground">
         This page is still being developed, please come back later!
       </Text>
     </View>

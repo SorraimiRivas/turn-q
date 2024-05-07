@@ -20,21 +20,12 @@ type CustomIcon = {
   title: string;
 };
 
-const CustomTabIcon = ({
-  color,
-  size,
-  focused,
-  title,
-  children,
-}: CustomIcon) => {
+const CustomTabIcon = ({ color, focused, title, children }: CustomIcon) => {
   return (
     <View className="items-center">
       {children}
       <Text
-        className={cn(
-          "",
-          focused ? "font-bold text-pretty text-sm" : "text-xs"
-        )}
+        className={cn("", focused ? "font-p700" : "font-p400")}
         style={{
           color,
         }}
@@ -89,6 +80,9 @@ export default function TabsLayout() {
             ? NAV_THEME.dark.text
             : NAV_THEME.light.text,
           tabBarInactiveTintColor: "grey",
+          tabBarStyle: {
+            height: 85,
+          },
         }}
       >
         {nav.map((tab) => (
