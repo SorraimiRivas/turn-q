@@ -16,7 +16,7 @@ export default function EmptyList() {
       />
       <Text className="text-2xl font-bold font-serif">The Queue is Empty!</Text>
       <Text className="text-muted-foreground text-center text-xl">
-        The Queue will be generated when time is right, do not despair!
+        The Queue will be generated when the time is right, do not despair!
       </Text>
     </View>
   );

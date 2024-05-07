@@ -74,7 +74,7 @@ export default function Queue() {
         data={queue}
         renderItem={renderItem}
         contentContainerClassName={cn(
-          "pb-10 gap-4",
+          "gap-4",
           queue.length > 0 ? "" : "flex-1"
         )}
         showsVerticalScrollIndicator={false}
